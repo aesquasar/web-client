@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 45 920;
+    font-style: normal;
+    font-display: swap;
+    src: url("/fonts/pretendard/PretendardVariable.woff2")
+        format("woff2-variations");
+}
+
+@font-face {
+    font-family: "Sansation-Light";
+    src: url("/fonts/sansation/Sansation-Light.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Sansation-Regular";
+    src: url("/fonts/sansation/Sansation-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Sansation-Bold";
+    src: url("/fonts/sansation/Sansation-Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "IBMPlexMono";
+    src: url("/fonts/ibm-plex-mono/IBMPlexMono-Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "IBMPlexMono";
+    src: url("/fonts/ibm-plex-mono/IBMPlexMono-Light.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "IBMPlexMono";
+    src: url("/fonts/ibm-plex-mono/IBMPlexMono-Medium.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+    --background: #fafafa;
+    --foreground: #101010;
+
+    --border: #d3d3d3;
+
+    --sidebar-border: var(--border);
+    --sidebar-width: 240px;
+
+    --header-border: #5d5d5d39;
+    --header-height: 64px;
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #101010;
+        --foreground: #fafafa;
+        --border: #151515;
+        
+        --header-border: #2d2d2d39;
+        --sidebar-border: var(--border);
+    }
+}
+
+body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: "Pretendard", Arial, Helvetica, sans-serif;
+}
